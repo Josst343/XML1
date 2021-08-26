@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Canciones>
+    <Cancion>
+        <Titulo>
+            Visita
+        </Titulo>
+        <genero>Indie</genero>
+        <Cantante>Enjambre</Cantante>
+        <Pais>Mexico</Pais>
+    </Cancion>
+    <Cancion>
+        <Titulo>
+            Adios Adios
+        </Titulo>
+        <genero>SKA</genero>
+        <Cantantes>
+            <Cantante>Triciclo Circus Band</Cantante>
+            <Cantante>Los Caligaris</Cantante>
+        </Cantantes>
+        <Pises>
+            <Pais>Mexico</Pais>
+            <Pais>Argentina</Pais>
+        </Pises>
+    </Cancion>
+</Canciones>
