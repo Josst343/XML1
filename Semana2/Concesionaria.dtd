@@ -1,0 +1,14 @@
+<!ELEMENT Inventario (Vehiculos*,Vehiculo*,Motocicletas*,Motocicleta*)>
+<!ATTLIST Inventario  fecha CDATA #REQUIRED>
+<!ATTLIST Inventario   responsable CDATA #REQUIRED>
+<!ELEMENT Vehiculos (Vehiculo*)>
+<!ELEMENT Vehiculo (Marca,Modelo,Color,Cilindros,Kilometraje,Precio)>
+<!ELEMENT Marca (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT Modelo (#PCDATA)>
+<!ELEMENT Color (#PCDATA)>
+<!ELEMENT Cilindros  (#PCDATA)>
+<!ELEMENT Kilometraje (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ELEMENT Motocicletas (Motocicleta*)>
+<!ELEMENT Motocicleta (Marca,Modelo,Color,Cilindros,Kilometraje,Precio)>

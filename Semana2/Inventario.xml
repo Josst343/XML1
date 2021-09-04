@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Inventario SYSTEM "Concesionaria.dtd">
+<!-- Venta de vehiculos usados -->
+<Inventario fecha=" 09/03/2021 " responsable=" Adonal Briseida">
+	<Vehiculos>
+		<Vehiculo>
+			<Marca>Mitsubishi</Marca>
+			<Modelo>L200</Modelo>
+			<Color>blanco</Color>
+			<Cilindros>4</Cilindros>
+			<Kilometraje>47305 Kms.</Kilometraje>
+			<Precio>$310,000.00</Precio>
+		</Vehiculo>
+		<Vehiculo>
+			<Marca>Nissan</Marca>
+			<Modelo>Sentra</Modelo>
+			<Color>Rojo</Color>
+			<Cilindros>4</Cilindros>
+			<Kilometraje>71918 km</Kilometraje>
+			<Precio>$215,000.00</Precio>
+		</Vehiculo>
+	</Vehiculos>
+	<Motocicletas>
+		<Motocicleta>
+			<Marca>Vento</Marca>
+			<Modelo>Ryder</Modelo>
+			<Color>Negro/Amarillo</Color>
+			<Cilindros>1</Cilindros>
+			<Kilometraje>1000 km</Kilometraje>
+			<Precio>$18,000.00</Precio>
+		</Motocicleta>
+		<Motocicleta>
+			<Marca>Vento</Marca>
+			<Modelo>Wind 125</Modelo>
+			<Color>Naranja</Color>
+			<Cilindros>1</Cilindros>
+			<Kilometraje>0 km</Kilometraje>
+			<Precio>$17,499.00</Precio>
+		</Motocicleta>
+	</Motocicletas>
+</Inventario>
+	

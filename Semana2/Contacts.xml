@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contacts SYSTEM "Contacts.dtd">
+<contacts version="1.0" source="">
+    <contact alias="">
+        <name>
+            <first>Josue</first>
+            <middle>Misael</middle>
+            <last>Flores</last>
+        </name>
+        <location>
+            <address>Berenjena 8 col. El manto alcaldia iztapalapa</address>
+        </location>
+        <phone phone-kind="Cell">5516039201</phone>
+        <knows></knows>
+        <description></description>
+    </contact>
+</contacts>

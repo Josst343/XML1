@@ -1,0 +1,17 @@
+<!ELEMENT contacts (contact*)>
+<!ATTLIST contacts version CDATA #FIXED "1.0">
+<!ATTLIST contacts source CDATA #IMPLIED>
+<!ELEMENT contact (name, location, phone, knows, description)>
+<!ATTLIST contact alias CDATA #IMPLIED>
+<!ELEMENT name (first+, middle?, last)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT middle (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT location (address | (latitude, longitude))*>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT latitude (#PCDATA)>
+<!ELEMENT longitude (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone phone-kind (Home | Work | Cell | Fax) "Home">
+<!ELEMENT knows EMPTY>
+<!ELEMENT description (#PCDATA)>
